@@ -10,8 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>farm-parent</module>
-    <module>farm-boot</module>
-    <module>farm-core</module>
+    <module>farm-bom</module>
   </modules>
   <properties>
 
