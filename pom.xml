@@ -15,5 +15,7 @@
   <properties>
 
   </properties>
+  <dependencyManagement>
 
+  </dependencyManagement>
 </project>

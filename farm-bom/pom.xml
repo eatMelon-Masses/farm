@@ -10,6 +10,34 @@
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
   <artifactId>farm-bom</artifactId>
+  <properties>
+    <dep.spring-boot.version>2.3.9.RELEASE</dep.spring-boot.version>
+    <dep.java-jwt.version>4.0.0</dep.java-jwt.version>
+    <dep.apollo-client.version>1.7.0</dep.apollo-client.version>
+  </properties>
+  <dependencyManagement>
+  <dependencies>
+    <dependency>
+      <!-- spring boot -->
 
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-dependencies</artifactId>
+      <version>${dep.spring-boot.version}</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+      <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
+      <dependency>
+        <groupId>com.auth0</groupId>
+        <artifactId>java-jwt</artifactId>
+        <version>${dep.java-jwt.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.ctrip.framework.apollo</groupId>
+        <artifactId>apollo-client</artifactId>
+        <version>${dep.apollo-client.version}</version>
+      </dependency>
+  </dependencies>
+  </dependencyManagement>
 
 </project>

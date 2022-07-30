@@ -1,0 +1,2 @@
+com.medlinker.edith.boot.EnableConfiguration=\
+    com.yiezi.farm.boot.apollo.ApolloConfigConfiguration
