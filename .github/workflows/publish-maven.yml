@@ -15,7 +15,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: cat settings
-        run: cat /home/runner/.m2/settings.xml
+        run: echo ${GITHUB_ACTOR}
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
