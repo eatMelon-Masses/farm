@@ -18,4 +18,11 @@
   <dependencyManagement>
 
   </dependencyManagement>
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://github.com/eatMelon-Masses/farm</url>
+    </repository>
+  </distributionManagement>
 </project>
